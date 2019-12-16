@@ -1,0 +1,111 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    width: 100%;
+}
+
+header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 8px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.m0{
+    margin: 0px;
+    margin-left: 10px; 
+}
+
+.error_validity{
+    color: red;
+}
+
+#description::before, #price::before, #price_open::before, #day_high::before, #day_low::before {
+    position: relative;
+    left: -10px;
+}
+
+#description::before{
+    content: url('/img/description.png');
+}
+#price::before{
+    content: url('/img/price.png');
+}
+#price_open::before{
+    content: url('/img/price_open.png');
+}
+#day_high::before{
+    content: url('/img/day_high.png');
+}
+#day_low::before{
+    content: url('/img/day_low.png');
+}
+
+.portrait {
+    width: 100px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+h1{
+    color: gray;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+ul li a {
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #f2f2f2;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    display: inline-flex;
+}
+
+input:{
+}
+
+button{
+    cursor: pointer;
+}
+
+input, button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+}
